@@ -12,13 +12,15 @@
 
 <script setup>
 const name = ref("Nutuzzaman himel");
-const userDetails = ref({
+const userDetails = reactive({
   name: "Himel",
   age: 20,
 });
 
 setTimeout(() => {
   name.value = "Change My name after 3 second";
+  userDetails.name = "change name";
+  userDetails.age = "change 30";
 }, 3000);
 </script>
 

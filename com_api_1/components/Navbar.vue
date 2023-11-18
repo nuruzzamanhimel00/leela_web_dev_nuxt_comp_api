@@ -1,16 +1,13 @@
 <template>
   <ul class="nav">
     <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
+      <NuxtLink class="nav-link active" to="/">Home</NuxtLink>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+      <NuxtLink class="nav-link" :to="{ name: 'tut_102' }">Tut 102</NuxtLink>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled">Disabled</a>
+      <NuxtLink class="nav-link" :to="{ name: 'tut_103' }">Tut 103</NuxtLink>
     </li>
   </ul>
 </template>

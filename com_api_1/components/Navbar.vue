@@ -21,6 +21,12 @@
     <li class="nav-item">
       <NuxtLink class="nav-link" :to="{ name: 'tut_108' }">Tut 108</NuxtLink>
     </li>
+    <li class="nav-item">
+      <NuxtLink class="nav-link" :to="{ name: 'tut_109' }">Tut 109</NuxtLink>
+    </li>
+    <li class="nav-item">
+      <NuxtLink class="nav-link" :to="{ name: 'tut_110' }">Tut 110</NuxtLink>
+    </li>
   </ul>
 </template>
 

@@ -54,6 +54,10 @@ const fullName = computed(() => {
   return firstName.value + " " + lastName.value;
 });
 
+watch([lastName, firstName, fullName], (newValue, oldValue) => {
+  console.log("watch", newValue, oldValue);
+});
+
 console.log(isRef(name));
 console.log(isReactive(userDetails));
 setTimeout(() => {
